@@ -3,21 +3,21 @@ This repository contains inference script for [Face Swapping as A Simple Arithme
 
 ![model](demo/model.jpg)
 
-# Preparation
-## Requirements
+## Preparation
+### Requirements
 
 * Python
 * PyTorch
 * Opencv
 
-## Pretrained Models
+### Pretrained Models
 
 Download the following checkpoint to folder `weights`.
 
 * [StyleGAN2 model](https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view)
 * [e4e FFHQ inversion](https://drive.google.com/file/d/1cUv_reLE6k3604or78EranS7XzuVMWeO/view)
-* [Face parser model](https://drive.google.com/file/d/1o1m-eT38zNCIFldcRaoWcLvvBtY8S4W3/view?usp=sharing)
-* [Style extraction network](https://drive.google.com/file/d/1NTGSJLCGIp_edMX11XJgropFBv8v0ge0/view?usp=sharing)
+* [Face parser model](https://github.com/truongvu2000nd/AFS/releases/download/v1.0/face_parsing.pth)
+* [Style extraction network](https://github.com/truongvu2000nd/AFS/releases/download/v1.0/style_extraction.pth)
 
 ## Inference
 To swap two images, run
