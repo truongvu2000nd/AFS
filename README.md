@@ -9,7 +9,7 @@ This repository contains inference script for [Face Swapping as A Simple Arithme
 * Python
 * PyTorch
 * Opencv
-* ninja `pip install ninja`
+* ninja: `pip install ninja`
 
 ### Pretrained Models
 
